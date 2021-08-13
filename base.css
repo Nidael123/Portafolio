@@ -1,0 +1,32 @@
+.{
+	padding:  0;
+	margin: 0;
+}
+
+@media screen and (max-width: 1680px)/*pantallas grandes*/
+{
+	body{
+		background: blue;
+	}
+}
+
+@media screen and (max-width: 1024px)/*pantallas medias*/
+{
+	body{
+		background: green;
+	}
+}
+
+@media screen and (max-width: 720px)/*pantallas pequeñas*/
+{
+	body{
+		background: black;
+	}
+}
+
+@media screen and (max-width: 500px)/*pantallas mas pequeñas*/
+{
+	body{
+		background: gray;
+	}
+}
